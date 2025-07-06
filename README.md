@@ -7,54 +7,77 @@ This project contains flight schedule data for domestic flights connecting India
 
 # What’s Included
 flight_dataset.csv — The complete dataset of flights between Indian International Airports on 16th July 2025.
+
 scrape_flight_data.py — Python script used to scrape the raw flight schedule data.
+
 beautifulsoup_text_extractor.py — Python script using BeautifulSoup to parse and extract flight details.
+
 clean_flights_dataset (1).ipynb - Python script used to clean the extract data.
+
 README.md — Project documentation.
 
 
 # Dataset Contents:
 The dataset is provided as a CSV file and contains the following fields:
+
 ->Airline
+
 ->Airline_Code
+
 ->Flight_Number
+
 ->Cabin_Class
+
 ->Aircraft_Type
+
 ->Departure_Time
+
 ->Departure_Port
+
 ->Arrival_Time
+
 ->Arrival_Port
+
 ->Duration_Time
+
 ->Stop
+
 ->Fare
+
 ->Enjoy Free Meals
+
 ->Dep_Port_Owned_by
+
 ->Arv_Port_Owned_by
+
 ->Dep_Port_Name
+
 ->Arv_Port_Name
+
 
 # Airports Covered:
 This dataset includes flights between all Indian International Airports, such as:
-DEL — Delhi
-BLR — Bengaluru
-MAA — Chennai
-GOI — Goa
-HYD — Hyderabad
-AMD — Ahmedabad
-COK — Kochi
-TRV — Thiruvananthapuram
-JAI — Jaipur
-LKO — Lucknow
-ATQ — Amritsar
-IXZ — Port Blair
-GAU — Guwahati
-SXR — Srinagar
+
+DEL — Delhi,
+BLR — Bengaluru,
+MAA — Chennai,
+GOI — Goa,
+HYD — Hyderabad,
+AMD — Ahmedabad,
+COK — Kochi,
+TRV — Thiruvananthapuram,
+JAI — Jaipur,
+LKO — Lucknow,
+ATQ — Amritsar,
+IXZ — Port Blair,
+GAU — Guwahati,
+SXR — Srinagar,
 And more…
 
 # Tools & Technologies
-->Python
-->pandas
-->BeautifulSoup / Selenium (for web scraping, if applicable)
+->Python,
+->pandas,
+->BeautifulSoup and Selenium,
 ->CSV file handling
 
 #  Acknowledgements
